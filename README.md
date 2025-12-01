@@ -1,3 +1,3 @@
-# Advent of code 2024
+# Advent of code 2025
 
 <https://adventofcode.com/>
