@@ -34,6 +34,7 @@ fn parse(input: &str) -> IResult<&str, Vec<Data>> {
     many1(terminated(parse_line, opt(line_ending))).parse(input)
 }
 
+/// Below algo is monotonic stack
 fn select_max_number(digits: &[u8], target_len: usize) -> Vec<u8> {
     assert!(
         digits.len() >= target_len,
